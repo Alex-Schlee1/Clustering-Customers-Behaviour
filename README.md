@@ -41,20 +41,20 @@
  
  The goal is to use the mentioned data and cluster the customer and behaviour patterns find which can be used for example for marketing purposes. 
  
- <img src='./images/image1.PNG' width=900>
+ <img src='./images/image1.PNG' width=600>
  
  
  ## Part 2- Correlation and Visualization of the Data
  
  First, it is important to take a look if correlation between the features exist. Therefore, I decided to highlight the correlation between the numeric data:
- <img src='./images/image2.PNG' width=900>
+ <img src='./images/image2.PNG' width=600>
 
  
 It can be said that no meaningful correlation between the observed features exist.
 
 The next graph illustrates the customers spending score (1-100), based on the annual income and separated by gender:
 
-<img src='./images/image3.PNG' width=900>
+<img src='./images/image3.PNG' width=600>
  
  
  ## Part 3- Clustering the customers
@@ -65,13 +65,13 @@ The next graph illustrates the customers spending score (1-100), based on the an
  To determine the optimal number of clusters, the elbow method is often used. The elbow method plots the value of the cost function produced by different values of "k". If "k" increases, the distortion will decrease and all data points will be closer to their centroids. Nevertheless, the improvement in distortion will be smaller and smaller if "k" increases. To simplify the use case, it can be said that the ,,elbow" is nothing but the point of inflection on a curve. It is a good indication that the underlying model fits best at that point.
  In our example, the optimum value is "5":
  
- <img src='./images/image4.PNG' width=900>
+ <img src='./images/image4.PNG' width=600>
  
  
  
 After finding out the optimum numbers of clusters, we can visualize the outcome:
 
-<img src='./images/image5.PNG' width=900>
+<img src='./images/image5.PNG' width=600>
 
 
 
@@ -82,11 +82,11 @@ After finding out the optimum numbers of clusters, we can visualize the outcome:
  ## Part 4- Deriving possible marketing strategies and conclusion
  In summary, we have 5 different clusters (red, blue, green, orange, magenta) and the respective centroids (black).
  
- Cluster 3 (green): People with a low income and a low spending score
- Cluster 4 (orange): Customers with a high spending score and a low annual income
- Cluster 2 (blue): Low spending score and a high income
- Cluster 5 (magenta): High spending score and high annual income
- Cluster 1 (red): ,,Average" spending score and ,,average" annual income
+ * Cluster 3 (green): People with a low income and a low spending score
+ * Cluster 4 (orange): Customers with a high spending score and a low annual income
+ * Cluster 2 (blue): Low spending score and a high income
+ * Cluster 5 (magenta): High spending score and high annual income
+ * Cluster 1 (red): ,,Average" spending score and ,,average" annual income
  
  Given this information, the next step is to find out how certain customers can be approached and how a proper marketing strategy can be developed.
 
