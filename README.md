@@ -5,11 +5,10 @@
     + [Project Goal and procedure](#project-goal-and-procedure)
     + [Code and Resources](#code-and-resources)
     + [Part 1- Describing the dataset](#part-1--describing-the-dataset)
-    + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
-    + [Part 3- Exploratory Data Analysis](#part-3--exploratory-data-analysis)
-    + [Part 4- Model Building](#part-4--model-building)
-    + [Part 5- Flask Server](#part-5--flask-server)
-    + [Part 6- Project Limitation](#part-6--project-limitation)
+    + [Part 2- Correlation and Visualization of the Data](#part-2--correlation-and-visualization-of-the-data)
+    + [Part 3- Clustering the customers](#part-3--clustering-the-customers)
+    + [Part 4- Deriving possible marketing strategies and conclusion](#part-4--deriving-possible-marketing-strategies-and-conclusion)
+
 
 
  ### Credits: 
@@ -41,13 +40,14 @@
  
  The goal is to use the mentioned data and cluster the customer and behaviour patterns find which can be used for example for marketing purposes. 
  
- <img src='./images/image1.PNG' width=600>
+ <img src='./images/image1.PNG' width=400>
  
  
  ## Part 2- Correlation and Visualization of the Data
  
  First, it is important to take a look if correlation between the features exist. Therefore, I decided to highlight the correlation between the numeric data:
- <img src='./images/image2.PNG' width=600>
+ 
+ <img src='./images/image2.PNG' width=400>
 
  
 It can be said that no meaningful correlation between the observed features exist.
@@ -84,8 +84,8 @@ After finding out the optimum numbers of clusters, we can visualize the outcome:
  
  * Cluster 3 (green): People with a low income and a low spending score
  * Cluster 4 (orange): Customers with a high spending score and a low annual income
- * Cluster 2 (blue): Low spending score and a high income
- * Cluster 5 (magenta): High spending score and high annual income
+ * Cluster 2 (blue): People with a low spending score and a high income
+ * Cluster 5 (magenta): Individuals with a high spending score and a high annual income
  * Cluster 1 (red): ,,Average" spending score and ,,average" annual income
  
  Given this information, the next step is to find out how certain customers can be approached and how a proper marketing strategy can be developed.
