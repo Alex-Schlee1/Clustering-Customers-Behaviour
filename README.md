@@ -65,7 +65,7 @@ The next graph illustrates the customers spending score (1-100), based on the an
  To determine the optimal number of clusters, the elbow method is often used. The elbow method plots the value of the cost function produced by different values of "k". If "k" increases, the distortion will decrease and all data points will be closer to their centroids. Nevertheless, the improvement in distortion will be smaller and smaller if "k" increases. To simplify the use case, it can be said that the ,,elbow" is nothing but the point of inflection on a curve. It is a good indication that the underlying model fits best at that point.
  In our example, the optimum value is "5":
  
- <img src='./images/image4.PNG' width=600>
+ <img src='./images/image44.PNG' width=600>
  
  
  
