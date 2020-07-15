@@ -90,4 +90,6 @@ After finding out the optimum numbers of clusters, we can visualize the outcome:
  
  Given this information, the next step is to find out how certain customers can be approached and how a proper marketing strategy can be developed.
 
+For example, one business strategy can be to target customers from cluster 5 (high spending score and high income) when new offers ar introduced  because we know for sure that these people are willing to pay for our service and also have a high salary. Chances are high that further products can be sold to them. 
+On the other side, the company (if it pursues ethical standards and wants to act social responsible), can target the people from cluster 4 (low income, high spending score) less frequent with ,,irresistable offers". 
  
