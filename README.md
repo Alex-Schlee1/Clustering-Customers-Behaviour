@@ -26,7 +26,7 @@
 
 * Python Version: 3.8
 * Environment: Jupyter Notebook
-* Packages: Pandas, Seaborn, Numpy, Skikit-learn
+* Packages: Pandas, Seaborn, Numpy, Scikit-learn
 
 
  ## Part 1- Describing the dataset 
