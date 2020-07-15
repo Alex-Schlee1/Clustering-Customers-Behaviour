@@ -2,7 +2,7 @@
 
 + [Table of Contents](#sub-sub-heading-1)
     + [Credits](#credits)
-    + [Project Goal and procedure](#project-goal-and-procedure)
+    + [Project Goal and Procedure](#project-goal-and-procedure)
     + [Code and Resources](#code-and-resources)
     + [Part 1- Describing the dataset](#part-1--describing-the-dataset)
     + [Part 2- Correlation and Visualization of the Data](#part-2--correlation-and-visualization-of-the-data)
